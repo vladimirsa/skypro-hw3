@@ -58,5 +58,14 @@ public class Main {
         int totalBrownCans = totalClasses * brownCansPerClass;
 
         System.out.println("В школе, где " + totalClasses + " классов, нужно " + totalWhiteCans + " банок белой краски и " + totalBrownCans + " банок коричневой краски");
+
+        System.out.println("Задание 6");
+        int bananas = 5 * 80;
+        int milk = 2 * 105;
+        int iceCream = 2 * 100;
+        int eggs = 4 * 70;
+        int totalGram = bananas + milk + iceCream + eggs;
+        float totalKg = (float) totalGram / 1000;
+        System.out.println("Результат в граммах " + totalGram + " гр" + " или " + totalKg + " кг");
     }
 }
