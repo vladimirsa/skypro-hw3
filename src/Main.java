@@ -67,5 +67,35 @@ public class Main {
         int totalGram = bananas + milk + iceCream + eggs;
         float totalKg = (float) totalGram / 1000;
         System.out.println("Результат в граммах " + totalGram + " гр" + " или " + totalKg + " кг");
+
+        System.out.println("Задание 7");
+
+        int lossWeighTotal = 7000;
+        int minLossPerDay = 250;
+        int maxLossPerDay = 500;
+
+        int daysMin = lossWeighTotal / maxLossPerDay;
+        int daysMax = lossWeighTotal / minLossPerDay;
+        int daysAvg = (daysMin + daysMax) / 2;
+
+        System.out.println("Минимальное количество для похудения - " + daysMin);
+        System.out.println("Максимальное количество дней для похудения - " + daysMax);
+        System.out.println("Для похудения необходимо в среднем " + daysAvg + " день");
+
+        System.out.println("Задание 8");
+
+        int mariaSallaryNow = 67760;
+        int denisSallaryNow = 83690;
+        int kristinaSallaryNow = 76230;
+
+        int mariaSallaryAfter = (int) (mariaSallaryNow * 1.1);
+        int mariaSallaryDiff = mariaSallaryAfter - mariaSallaryNow;
+        System.out.println("Маша теперь получает " + mariaSallaryAfter + " рублей. Годовой доход вырос на " + mariaSallaryDiff + " рублей.");
+        int denisSallaryAfter = (int) (denisSallaryNow * 1.1);
+        int denisSallaryDiff = denisSallaryAfter - denisSallaryNow;
+        System.out.println("Денис теперь получает " + denisSallaryAfter + " рублей. Годовой доход вырос на " + denisSallaryDiff + " рублей.");
+        int kristinaSallaryAfter = (int) (kristinaSallaryNow * 1.1);
+        int kristinaSallaryDiff = kristinaSallaryAfter - kristinaSallaryNow;
+        System.out.println("Кристина теперь получает " + kristinaSallaryAfter + " рублей. Годовой доход вырос на " + kristinaSallaryDiff + " рублей.");
     }
 }
